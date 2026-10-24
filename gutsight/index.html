@@ -3,36 +3,86 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Gutsight: IBS &amp; FODMAP Diary</title>
-    <meta name="description" content="Find the foods behind your IBS. A private food, symptom and stool diary with a trigger finder and a guided low-FODMAP plan." />
+    <title>Gutsight: IBS &amp; FODMAP Tracker</title>
+    <meta name="description" content="Find the foods behind your IBS. A private food, symptom and stool diary with a trigger finder and a guided low-FODMAP plan. Free to start, one purchase, no subscription." />
+    <meta property="og:title" content="Gutsight: IBS &amp; FODMAP Tracker" />
+    <meta property="og:description" content="Find the foods behind your IBS. Private, no account, no subscription." />
+    <meta property="og:image" content="https://gveloso-dev.github.io/gutsight/screens/03-triggers.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="/gutsight/icon.png" />
     <link rel="apple-touch-icon" href="/gutsight/icon.png" />
     <link rel="stylesheet" href="/assets/site.css" />
   </head>
   <body>
-    <main>
+    <main class="wide">
       <div class="app-header">
         <img src="/gutsight/icon.png" alt="Gutsight app icon" />
         <div>
           <h1>Gutsight</h1>
-          <p class="muted" style="margin: 4px 0 0">IBS &amp; FODMAP diary for iPhone</p>
+          <p class="muted" style="margin: 4px 0 0">IBS &amp; FODMAP tracker for iPhone</p>
         </div>
       </div>
       <p class="lead">
-        Find the foods behind your bloating, cramps and urgency. Log meals in your own words, follow the low-FODMAP plan step
-        by step, and keep it all private. One price, no subscription.
+        Bloating, cramps, urgency, and no idea why? Log meals in your own words, and Gutsight shows which foods line up with
+        your symptoms. Then follow the low-FODMAP plan to learn what you can eat again.
       </p>
+      <p class="badge">Coming soon to the App Store</p>
+
+      <div class="gallery" aria-label="Screenshots">
+        <img src="/gutsight/screens/01-today.jpg" alt="Today screen with quick logging and a daily check-in" loading="lazy" />
+        <img src="/gutsight/screens/02-log-food.jpg" alt="Logging a meal: Gutsight picks out the ingredients and their FODMAPs" loading="lazy" />
+        <img src="/gutsight/screens/03-triggers.jpg" alt="Possible triggers, with how strong the evidence is" loading="lazy" />
+        <img src="/gutsight/screens/04-trigger.jpg" alt="A trigger's detail page" loading="lazy" />
+        <img src="/gutsight/screens/05-plan.jpg" alt="The low-FODMAP plan's reintroduction challenges" loading="lazy" />
+        <img src="/gutsight/screens/06-insights.jpg" alt="Insights: symptom-free days, gut score and stools" loading="lazy" />
+        <img src="/gutsight/screens/07-label.jpg" alt="Checking an ingredient label for hidden FODMAPs" loading="lazy" />
+        <img src="/gutsight/screens/08-stool.jpg" alt="Logging a bowel movement on the Bristol scale" loading="lazy" />
+        <img src="/gutsight/screens/09-privacy.jpg" alt="Privacy: everything stays on your iPhone" loading="lazy" />
+      </div>
 
       <h2>What it does</h2>
       <div class="card">
         <ul>
-          <li><strong>Log in seconds.</strong> Type a meal the way you’d say it. Gutsight picks out the ingredients and their FODMAPs, and suggests swaps.</li>
-          <li><strong>Find your triggers.</strong> It compares how you felt after each food with how you felt after everything else, and says how strong the evidence is.</li>
-          <li><strong>Follow the low-FODMAP plan.</strong> Elimination with meal ideas, then reintroduction one FODMAP group at a time.</li>
+          <li><strong>Log in seconds.</strong> Type a meal the way you’d say it, like “pasta with garlic and an oat milk latte”. Gutsight picks out the ingredients and their FODMAPs, and suggests swaps.</li>
+          <li><strong>Find your triggers.</strong> It compares how you felt after each food with how you felt after everything else, says how strong the evidence is, and looks at one symptom at a time if you like.</li>
+          <li><strong>Follow the low-FODMAP plan.</strong> Elimination with meal ideas, then reintroduction one FODMAP group at a time, in rising doses.</li>
           <li><strong>Check a label.</strong> Spot hidden FODMAPs like inulin, honey and onion powder in any ingredient list.</li>
           <li><strong>Share with your doctor.</strong> A PDF report of your symptoms, bowel movements and likely triggers.</li>
-          <li><strong>Private by design.</strong> No account, no ads, no tracking. Your diary stays on your iPhone.</li>
+          <li><strong>Log from the Home Screen.</strong> Press and hold the icon to log food, a symptom or a stool.</li>
         </ul>
+      </div>
+
+      <h2>Price</h2>
+      <div class="price-grid">
+        <div class="card">
+          <h3>Free</h3>
+          <p class="muted">No time limit</p>
+          <ul>
+            <li>Food, symptom and stool diary</li>
+            <li>FODMAP check and swaps for every meal</li>
+            <li>Food guide, label checks and meal ideas</li>
+            <li>Insights, reminders and Face ID lock</li>
+            <li>Backup and spreadsheet export</li>
+          </ul>
+        </div>
+        <div class="card accent">
+          <h3>Full Access <span class="price">$9.99 once</span></h3>
+          <p class="muted">One purchase, no subscription</p>
+          <ul>
+            <li>The trigger finder’s results</li>
+            <li>Guided FODMAP reintroduction</li>
+            <li>PDF report for your doctor</li>
+            <li>Every feature that comes later</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Private by design</h2>
+      <div class="card">
+        <p>
+          No account, no ads, no analytics. Your diary is stored only on your iPhone and never leaves it unless you share it.
+          There are no Gutsight servers. Read the <a href="/gutsight/privacy/">privacy policy</a>.
+        </p>
       </div>
 
       <h2>More</h2>
@@ -42,8 +92,8 @@
       </div>
 
       <footer>
-        Gutsight is for tracking and education. It doesn’t diagnose or treat any condition.<br />
-        Coming soon to the App Store.
+        Gutsight is for tracking and education. It doesn’t diagnose or treat any condition. See a doctor about ongoing or
+        severe symptoms.
       </footer>
     </main>
   </body>
